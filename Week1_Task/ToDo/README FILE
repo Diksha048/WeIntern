@@ -1,0 +1,47 @@
+# 📝 To-Do App (Modern UI)
+
+A modern, responsive **To-Do List web application** built using **HTML, CSS, and JavaScript** with an eye-catching UI, smooth animations, and essential productivity features.  
+Tasks are stored locally using **LocalStorage**, so your data persists even after refresh.
+
+---
+
+## 🚀 Features
+
+### ✅ Task Management
+- Add new tasks with **due date & time**
+- Edit tasks using a **modal dialog**
+- Mark tasks as **Completed / Pending**
+- Delete tasks with **confirmation modal**
+- **Undo delete** option via snackbar
+
+### 🔍 Smart Filters & Search
+- Filter tasks by:
+  - All
+  - Upcoming
+  - Completed
+- Real-time **search tasks by name**
+
+### 🌙 Dark Mode
+- One-click **Dark / Light mode toggle**
+- Mode preference saved in LocalStorage
+- Dynamic icon change (🌙 / ☀️)
+
+### 🎨 UI & UX Enhancements
+- Glassmorphism card layout
+- Floating **Add Task** button (FAB)
+- Date badges on task cards
+- Smooth animations & hover effects
+- Snackbar notifications instead of alerts
+- Mobile-first responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Structure
+- **CSS3** – Styling, animations, dark mode
+- **JavaScript (Vanilla)** – Logic & interactivity
+- **LocalStorage API** – Persistent data storage
+
+---
+
