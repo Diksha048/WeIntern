@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Hero from "./Hero";
+import CardGrid from "./CardGrid";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header className="header">
+        <h1 className="logo">Airbnb</h1>
+        <nav className="nav">
+          <a href="#stays">Stays</a>
+          <a href="#experiences">Become a host</a>
+          <a href="#online">Log in </a>
+        </nav>
       </header>
+
+      <Hero />
+
+      <section className="category-section">
+        <h2>Inspiration for your next trip</h2>
+        <CardGrid />
+      </section>
+
+      <footer className="footer">© 2026 Airbnb Clone</footer>
     </div>
   );
 }
